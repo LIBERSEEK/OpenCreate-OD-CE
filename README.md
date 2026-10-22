@@ -1,10 +1,10 @@
-# OpenCreate OD Community Edition
+# OpenCreate Design Community Edition
 
-从 [GitHub Releases](https://github.com/LIBERSEEK/OpenCreate-OD-CE/releases) 下载最新的 macOS 安装包。本仓库用于提供安装包和使用说明。
+从 [GitHub Releases](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases) 下载最新的 macOS 安装包。本仓库用于提供安装包和使用说明。
 
 ## 下载与安装
 
-当前版本为 [v0.0.1](https://github.com/LIBERSEEK/OpenCreate-OD-CE/releases/tag/v0.0.1)，安装包名为 `OpenCreate-OD-0.0.1.dmg`，适用于 Apple 芯片 Mac（arm64）。Intel Mac 暂不支持。
+当前版本为 [v0.0.1](https://github.com/LIBERSEEK/OpenCreate-Design-CE/releases/tag/v0.0.1)，安装包名为 `OpenCreate-Design-0.0.1.dmg`，适用于 Apple 芯片 Mac（arm64）。Intel Mac 暂不支持。
 
 安装后的应用名称为 `OpenCreate Design.app`。
 
@@ -30,7 +30,7 @@
 Release 同时提供 `.dmg.sha256` 校验文件。在两个文件所在目录运行以下命令，可检查下载文件是否完整：
 
 ```bash
-shasum -a 256 -c OpenCreate-OD-0.0.1.dmg.sha256
+shasum -a 256 -c OpenCreate-Design-0.0.1.dmg.sha256
 ```
 
 `v0.0.1` 暂未启用自动更新，请从本仓库的 Releases 下载后续版本。
