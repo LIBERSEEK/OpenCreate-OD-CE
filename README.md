@@ -4,7 +4,9 @@
 
 ## 下载与安装
 
-当前版本为 [v0.0.1](https://github.com/LIBERSEEK/OpenCreate-OD-CE/releases/tag/v0.0.1)，适用于 Apple 芯片 Mac（arm64）。Intel Mac 暂不支持。
+当前版本为 [v0.0.1](https://github.com/LIBERSEEK/OpenCreate-OD-CE/releases/tag/v0.0.1)，安装包名为 `OpenCreate-OD-0.0.1.dmg`，适用于 Apple 芯片 Mac（arm64）。Intel Mac 暂不支持。
+
+安装后的应用名称为 `OpenCreate Design.app`。
 
 1. 下载 Release 中的 `.dmg` 文件。
 2. 打开 DMG，将应用拖入“应用程序”（Applications）文件夹。
@@ -28,7 +30,7 @@
 Release 同时提供 `.dmg.sha256` 校验文件。在两个文件所在目录运行以下命令，可检查下载文件是否完整：
 
 ```bash
-shasum -a 256 -c open-create-od-ce-0.0.1-mac-arm64.dmg.sha256
+shasum -a 256 -c OpenCreate-OD-0.0.1.dmg.sha256
 ```
 
 `v0.0.1` 暂未启用自动更新，请从本仓库的 Releases 下载后续版本。
